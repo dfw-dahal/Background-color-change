@@ -1,31 +1,36 @@
-*{
-    font: bold;
-    font-size: 20px;
-    font-family: sans-serif;
-    padding: 10px;
-    margin: 10px;
-   
-}
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-button{
-    background-color: gray;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
     border-radius: 10px;
-    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
     text-align: center;
-    margin: 0;
+  }
+  
+  .card p {
+    margin-bottom: 20px;
+  }
+  
+  .card button {
     display: block;
     margin: 20px auto;
-}
-button:hover{
-    background-color: rgb(235, 225, 225);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(218, 204, 204);
+    color: black;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: rgb(112, 110, 110);
     transition: 0.5s;
-}
-.box{
-    display:inline-block;
-    text-align: center;
-}
+  }
